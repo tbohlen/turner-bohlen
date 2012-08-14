@@ -1,0 +1,13 @@
+{
+    "name" : "turnerbohlen.com"
+    , "description" : "My personal implementation of my website"
+    , "author" : "Turner Bohlen <turnerbohlen@gmail.com> (turnerbohlen.com)"
+    , "version" : "0.1.0"
+    , "main" : "./server.js"
+    , "repository" : "git://github.com/tbohlen/turner-bohlen.git"
+    , "dependencies" : {
+        "express" : "2.5.x"
+        , "weld" : "0.2.x"
+        , "jsdom" : "0.2.x"
+    }
+}
