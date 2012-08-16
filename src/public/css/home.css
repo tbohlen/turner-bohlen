@@ -1,0 +1,73 @@
+/*
+ * Style: #home-panel
+ * Styling for the home panel
+ */
+#home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    min-height: 600px;
+    min-width: 900px;
+    background-image: url(/img/sliver.png);
+    background-repeat-x: none;
+    background-repeat-y: repeat;
+    background-size: 100% 100%;
+}
+
+#home-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#home .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    min-height: 100%
+    overflow: hidden;
+}
+
+/*
+ * Style: #i-am-area
+ * Div containing the "i am" statements on the home page. Just poitioning.
+ */
+#home #i-am-area {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: #c8e0fc;
+    overflow: visible;
+}
+
+/*
+ * Style: .i-am-statement
+ * Styling for iam statement spans. Size, color, spacing.
+ */
+#home .i-am-statement {
+    display: block;
+    position: static;
+    font-size: 36px;
+}
+
+/*
+ * Style: #i-am
+ * Styling for the words 'I am' on the home page
+ */
+#home #i-am {
+    display: block;
+    position: absolute;
+    right: 100%;
+    bottom: 0px;
+    font-size: 192px;
+    line-height: 157px;
+    white-space: nowrap;
+    margin-right: 50px;
+}

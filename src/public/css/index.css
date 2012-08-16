@@ -1,0 +1,77 @@
+/********************************************************************\
+Project: turnerbohlen.com
+File: index.css
+Description: home page style
+Author: Turner Bohlen (www.turnerbohlen.com)
+Created: 08/15/2012
+Copyright 2012 Turner Bohlen
+\********************************************************************/
+
+@font-face {
+    font-family: "champagne";
+    src: url(/fonts/champagne.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "champagne";
+    src: url(/fonts/champagne-italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "champagne";
+    src: url(/fonts/champagne-bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "champagne";
+    src: url(/fonts/champagne-bold-italic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    font-family: "champagne";
+}
+
+/*
+ * Style: #page-container
+ * container for all panels
+ */
+#page-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+/********************************************************************\
+ * Internal Linking
+\********************************************************************/
+
+/*
+ * Style: .page-link
+ * Class identifying links to other areas of the board. All styled similarly to
+ * identify them to the user. DIFFERENT from external links.
+ */
+.internal-link {
+    color: #370B02;
+    cursor: pointer;
+}
+
+/*
+ * Style: .internal-link:hover
+ * internal link hover
+ */
+.internal-link:hover {
+    /*color: #5e1203;*/
+    color: rgba(56, 11, 2, 0.5);
+}
